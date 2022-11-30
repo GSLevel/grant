@@ -1,0 +1,29 @@
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    body {
+        background: black;
+        color: white;
+    }
+
+    * {
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif
+    }
+    
+    .btn {
+      border: solid white 6px;
+      background: black;
+      color: white;
+      border-radius: 5px;
+      font-size: 50px;
+      margin-right: 20px;
+      margin-top: 90px;
+      margin-bottom: 60px;
+      cursor: pointer;
+      transition: 0.5s ease-out
+    }
+    
+    .btn:hover {
+        background: white!important;
+        color: black!important;
+        border: solid white 7px!important
+    }
